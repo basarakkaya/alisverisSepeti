@@ -6,7 +6,7 @@ Dosya sistemindeki JSON dosyalarından alınan verilerin kullanılması ve bir [
 This client is developed on JavaScript language, without using any JS framework.
 Purpose of this project is fetching JSON files from file system and processing the data from these files to create a [yemeksepeti.com](http://yemeksepeti.com) Restaurant page simulation.
 
-[Denemek için tıklayın / Click to try](http://yemek.basarakkaya.com)
+[Denemek için tıklayın / Click to try](http://yemeksepeti.basarakkaya.com)
 
 ## Nasıl Çalıştırılır?/How to Run the Project
 
