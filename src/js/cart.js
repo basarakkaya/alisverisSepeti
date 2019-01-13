@@ -74,7 +74,6 @@ function changeProductCount(data){
 
 function getCartContent(){
     let storage = localStorage,
-    cart = [],
     cartApprovalText = '';
     
     for(var i = storage.length-1 ; i >= 0 ; i--) {
