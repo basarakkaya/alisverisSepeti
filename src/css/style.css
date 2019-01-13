@@ -1,0 +1,273 @@
+/* MAIN PARTS */
+body {
+    padding-top: 20px;
+    margin-bottom: 0px!important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    width: 640px;
+    position: relative;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 128px;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+}
+
+#restaurant,
+#menu {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px 0 10px 0;
+}
+
+#cart {
+    width: 90%;
+    height: 44px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    background-color: #a5a5a5;
+    opacity: 0.9;
+    color: white;
+    font-size: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+
+/* RESTAURANT INFO */
+.restaurant-info {
+    border-bottom: 3px solid #ccc;
+    padding: 20px;
+}
+
+.restaurant-logo {
+    height: 125px;
+    width: 150px;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+}
+
+.restaurant-display-name {
+    font-size: 24px;
+    text-align: center;
+}
+
+.restaurant-address {
+    text-align: center;
+}
+
+.restaurant-links {
+    text-align: center;
+}
+
+.link-fb {
+    margin: 12px;
+}
+
+.restaurant-delivery-info {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    height: 72px;
+}
+
+.restaurant-delivery-details {
+    float: left;
+}
+
+.restaurant-points {
+    float: right;
+    text-align: center;
+}
+
+.container-banner{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fae788;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.restaurant-misc-info-accordion {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.restaurant-misc-info-accordion-container {
+    display: none;
+    padding-top: 15px;
+}
+
+.misc-info-child-banner{
+    padding-left: 10px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fff7d1;
+    margin-bottom: 4px;
+    border-radius: 8px;
+}
+
+.info-active{
+    color: red;
+    font-weight: bold;
+}
+
+.delivery-info {
+    color: #7d7d7d;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+/* MENU */
+.category {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 20px;
+    margin: 5px 0 5px 0;
+}
+
+.category-display-name {
+    padding-left: 10px;
+    line-height: 24px;
+    font-size: 18px;
+    background-color: #d23f3f;
+    color: white;
+    margin-bottom: 4px;
+    border-radius: 8px;
+}
+
+.product {
+    min-height: 80px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+.product:hover {
+    background-color: #fff7d1;
+}
+
+.product-counter {
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+
+.product-increase-count {
+    height: 24px;
+    width: 24px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.product-increase-count:hover {
+    background-color: #00c500;
+}
+
+.product-decrease-count {
+    height: 24px!important;
+    width: 24px!important;
+    background-color: darkred;
+    color: white!important;
+    border: none;
+    border-radius: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.product-decrease-count:hover {
+    background-color: #d20000;
+}
+
+button:disabled {
+    opacity: 0.3!important;
+}
+
+.product-label {
+    float: left;
+    width: 80%;
+    padding: 5px;
+}
+
+.product-display-name {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.product-closed {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: grey;
+    max-height: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.product-price {
+    float: right;
+    text-align: center;
+    padding: 5px;
+}
+
+.product-list-price {
+    text-decoration: line-through red;
+}
+
+/* CART */
+.cart-info {
+    float: left;
+}
+
+.cart-button {
+    float: right;
+    color: white;
+    font-size: 16px;
+    height: 48px;
+    width: 72px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+.empty-cart {
+    background: darkred;
+}
+
+.approve-cart {
+    background: green;
+}
+
+.empty-cart:hover {
+    background: #d20000;
+} 
